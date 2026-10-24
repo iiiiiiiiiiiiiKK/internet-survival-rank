@@ -16,6 +16,7 @@
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite&logoColor=white&labelColor=0b1020)](#-技术栈)
 [![Tests](https://img.shields.io/badge/tests-256_passed-63e6c2?labelColor=0b1020)](#-测试与验收)
 [![License](https://img.shields.io/badge/license-MIT-f5c542?labelColor=0b1020)](LICENSE)
+[![Deploy](https://github.com/iiiiiiiiiiiiiKK/internet-survival-rank/actions/workflows/deploy.yml/badge.svg)](https://github.com/iiiiiiiiiiiiiKK/internet-survival-rank/actions/workflows/deploy.yml)
 
 [**在线试玩**](https://321.market/internet-survival-rank/) · [玩法](#-玩法) · [段位表](#-八段位--三级24-级) · [本地运行](#-本地运行) · [测试报告](TEST_REPORT.md) · [作者 𝕏](https://x.com/0xkillcoin)
 
@@ -402,5 +403,17 @@ npm run typecheck && npm test && npm run build && npm run test:e2e
 [![Follow](https://img.shields.io/badge/𝕏_关注作者-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/0xkillcoin)
 
 <sub>本站是娱乐向的本地小游戏，段位与称号不构成任何真实能力评估。</sub>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🌐 线上地址
+
+**[https://321.market/internet-survival-rank/](https://321.market/internet-survival-rank/)**
+
+<sub>GitHub Pages 托管 · push 到 main 自动部署</sub>
 
 </div>
