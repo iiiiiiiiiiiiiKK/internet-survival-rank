@@ -1,0 +1,34 @@
+{
+  "name": "internet-survival-rank",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "互联网生存段位 · 复古街机风纯前端娱乐游戏（localStorage 存档）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "node scripts/selftest.mjs",
+    "test:e2e": "node scripts/e2e.mjs",
+    "test:layout": "node scripts/layout-audit.mjs",
+    "test:device": "node scripts/device-emulation-check.mjs",
+    "test:header": "node scripts/header-check.mjs",
+    "test:all": "npm run build && npm run test && npm run test:e2e && npm run test:layout && npm run test:device"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "esbuild": "0.21.5",
+    "puppeteer-core": "23.11.1",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
