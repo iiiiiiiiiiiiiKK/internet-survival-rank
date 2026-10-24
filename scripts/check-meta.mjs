@@ -1,7 +1,13 @@
-const res = await fetch('https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/', { redirect: 'follow' });
-console.log('final url', res.url, 'status', res.status);
-const html = await res.text();
-console.log('len', html.length);
-console.log('has canonical', /rel="canonical"/.test(html));
-console.log('has og:image', /og:image/.test(html));
-console.log('has author meta', /twitter:creator/.test(html));
+const urls = [
+  'https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/',
+  'https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/#/tiers',
+];
+for (const u of urls) {
+  try {
+    const r = await fetch(u, { redirect: 'follow' });
+    const html = await r.text();
+    console.log(u, '->', r.status, 'final:', r.url, 'len', html.length);
+  } catch (e) {
+    console.log(u, 'ERR', e.message);
+  }
+}

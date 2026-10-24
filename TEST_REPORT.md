@@ -257,7 +257,7 @@ npm run test:all
 ## 9. 线上部署验证（GitHub Pages）
 
 - 仓库：https://github.com/iiiiiiiiiiiiiKK/internet-survival-rank （public）
-- 线上地址：https://321.market/internet-survival-rank/ （GitHub Pages + 自定义域名 321.market）
+- 线上地址：https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/
 - 部署方式：`.github/workflows/deploy.yml`，push 到 `main` 自动执行「类型检查 → 156 项规则自测 → 构建 → 上传 → 发布」
 
 首次部署运行结果（workflow run #40129797456）：
