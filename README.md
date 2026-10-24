@@ -8,7 +8,7 @@
 
 复古街机 × 像素风 · 纯前端 · 无账号 · 无后端 · 数据只存在你自己的浏览器里
 
-[![Live Demo](https://img.shields.io/badge/🎮_在线试玩-GitHub_Pages-63e6c2?style=for-the-badge&labelColor=0b1020)](https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/)
+[![Live Demo](https://img.shields.io/badge/🎮_在线试玩-GitHub_Pages-63e6c2?style=for-the-badge&labelColor=0b1020)](https://321.market/internet-survival-rank/)
 [![Follow on X](https://img.shields.io/badge/𝕏_@0xkillcoin-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/0xkillcoin)
 
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=white&labelColor=0b1020)](#-技术栈)
@@ -17,7 +17,7 @@
 [![Tests](https://img.shields.io/badge/tests-256_passed-63e6c2?labelColor=0b1020)](#-测试与验收)
 [![License](https://img.shields.io/badge/license-MIT-f5c542?labelColor=0b1020)](LICENSE)
 
-[**在线试玩**](https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/) · [玩法](#-玩法) · [段位表](#-八段位--三级24-级) · [本地运行](#-本地运行) · [测试报告](TEST_REPORT.md) · [作者 𝕏](https://x.com/0xkillcoin)
+[**在线试玩**](https://321.market/internet-survival-rank/) · [玩法](#-玩法) · [段位表](#-八段位--三级24-级) · [本地运行](#-本地运行) · [测试报告](TEST_REPORT.md) · [作者 𝕏](https://x.com/0xkillcoin)
 
 </div>
 
@@ -279,7 +279,7 @@ npm run dev        # http://127.0.0.1:5190/
 
 仓库内置 `.github/workflows/deploy.yml`：push 到 `main` 后自动 **类型检查 → 规则自测 → 构建 → 发布 Pages**。
 
-线上地址：**https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/**
+线上地址：**https://321.market/internet-survival-rank/**（GitHub Pages，已绑定自定义域名 321.market；`iiiiiiiiiiiiiKK.github.io/internet-survival-rank` 会 301 跳转到这里）
 
 手动触发：仓库 → Actions → `Deploy to GitHub Pages` → Run workflow。
 </details>
@@ -398,7 +398,7 @@ npm run typecheck && npm test && npm run build && npm run test:e2e
 
 **如果你也想知道自己能在互联网活到第几段 ——**
 
-[![Play Now](https://img.shields.io/badge/🎮_开始测试-63e6c2?style=for-the-badge&labelColor=0b1020)](https://iiiiiiiiiiiiiKK.github.io/internet-survival-rank/)
+[![Play Now](https://img.shields.io/badge/🎮_开始测试-63e6c2?style=for-the-badge&labelColor=0b1020)](https://321.market/internet-survival-rank/)
 [![Follow](https://img.shields.io/badge/𝕏_关注作者-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/0xkillcoin)
 
 <sub>本站是娱乐向的本地小游戏，段位与称号不构成任何真实能力评估。</sub>

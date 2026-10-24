@@ -250,4 +250,33 @@ npm run test:all
 - 规则层：`.selftest-tmp/bundle.mjs`（临时，可删除）
 - E2E：`.e2e-out/result-desktop.png`、`profile-desktop.png`、`home-mobile.png`、`mobile-nav.png`、`downloads/*.png`、`downloads/*.json`、`final-save.json`
 
-最后一次运行时间：2026-10-25 02:4x（Asia/Shanghai）。
+最后一次运行时间：2026-10-25 04:3x（Asia/Shanghai）。
+
+---
+
+## 9. 线上部署验证（GitHub Pages）
+
+- 仓库：https://github.com/iiiiiiiiiiiiiKK/internet-survival-rank （public）
+- 线上地址：https://321.market/internet-survival-rank/ （GitHub Pages + 自定义域名 321.market）
+- 部署方式：`.github/workflows/deploy.yml`，push 到 `main` 自动执行「类型检查 → 156 项规则自测 → 构建 → 上传 → 发布」
+
+首次部署运行结果（workflow run #40129797456）：
+
+```text
+Build & verify  ✅ checkout / setup-node / npm ci / typecheck / npm test / build / configure-pages / upload-artifact
+Deploy          ✅ deploy-pages
+```
+
+部署后线上冒烟（`npm run test:live`，真实 Chrome 打开线上地址）：
+
+| 检查 | 结果 |
+| --- | --- |
+| HTTP 200 | ✅ |
+| 页面标题正确 | ✅ |
+| React 已挂载 | ✅ |
+| 顶部作者 X 链接指向 https://x.com/0xkillcoin | ✅ |
+| 首测页面可进入并渲染 3 个选项 | ✅ |
+| 深链接 `#/tiers` 刷新后渲染 8 个段位块 | ✅ |
+| 无控制台 / 脚本错误 | ✅ |
+
+静态资源校验：`assets/index-*.js`（270 KB，application/javascript）与 `assets/index-*.css`（53 KB，text/css）均返回 200，说明相对路径 `base: './'` 在子路径部署下工作正常。
